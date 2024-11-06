@@ -4,3 +4,10 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+build_info = true
+extra_output = ["storageLayout"]
+[rpc_endpoints]
+sepolia = "https://sepolia.infura.io/v3/d616dbd1450d40e695eb7bed0ae24ff0"
+export PRIVATE_KEY = b6a0f621cb3d2250ca139efe476c4fb04d0d0f081c5cac7c8791420224cbf887
+
